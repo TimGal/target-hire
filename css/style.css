@@ -1,0 +1,48 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.card {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 16px;
+	border-radius: 15px;
+	border: 1px solid #ffe;
+	-webkit-box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.4);
+		 -moz-box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.4);
+					box-shadow: 0 6px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+.offer-img {
+	background-image: url(../img/workplace.png);
+	height: 33vh;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hire {
+	width: 100%;
+	
+}
+
+.offer-tab {
+	border: 2px solid ##C0DAD3 !important;
+}
+
+@media only screen and (min-width: 768px) {
+	.tab > a {
+		font-size: 18px !important;
+	}
+}
+
+.social-media {
+	width: 100px;
+	height: 100px;
+	padding: 15px;
+}

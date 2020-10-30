@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>HR</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	
+	<!--	Font	-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Source Sans Pro', sans-serif !important;
+		}
+		@media only screen and (min-width: 993px) {
+		.container {
+			width: 80%;
+			}
+		}
+		li {
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<div class="row" style="margin: 0px">
+		<div class="col l12 s12 offer-img" style="background-color: #92BCB1"></div>
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h4 class="header center black-text">Мы ищем менеджера по таргетированной рекламе</h4>
+					</div>
+					<div class="col s10 offset-s1">
+						<p class="black-text" style="text-align: justify; text-indent: 30px;">Международная бизнес-платформа поддержки малого и среднего бизнеса, таргетирующаяся на Канадской Бирже CSI. Govermedia Plus - платформа для предпринимателей, объединяющая в себе все инструменты, необходимые для развития бизнеса. Пользователь платформы Govermedia plus может привлечь финансовые потоки в свой проект, или проинвестировать идею. Используя сервисы платформы Govermedia Plus можно комплексно решать различные бизнес-задачи в режиме единого окна.</p>
+					</div>
+					
+					<div class="col s12 offset-m1 m10">
+						<div class="hire">
+
+							<!-- Target -->
+							<div id="target" class="col s12">
+								<div class="row offer-tab">
+									<div class="col l6 s12">
+										<h5 class="header black-text">Требование по вакансии:</h5>
+											<ol>
+												<li>Подбор аудиторий, разработка сценариев продвижения публикаций и площадок на разные ЦА</li>
+												<li>Работа с парсерами</li>
+												<li>Запуск и ведение рекламных кампаний в социальных сетях (VK, FB, Inst)</li>
+												<li>Анализ РК, оптимизирование расходов, отслеживание показателей эффективности РК</li>
+												<li>Работа с utm-метками. Отслеживание их эффективность в ЯМ</li>
+												<li>Генерация новых идей по стратегии, таргетингам, креативам</li>
+												<li>Мониторинг и анализ эффективности рекламных кампаний</li>
+												<li>Подготовка регулярных отчетов по результатам РК (ежемесячно)</li>
+												<li>Контроль достижения основных показателей</li>
+												<li>Повышение эффективности рекламных кампаний на основе систем аналитики</li>
+											</ol>
+									</div>
+									<div class="col l6 s12">
+										<h5 class="header black-text">Мы предлагаем:</h5>
+											<ol>
+												<li>Широкое поле для профессиональной самореализации</li>
+												<li>Заработную плату, которая не имеет верхнего «потолка» и зависит от ваших показателей</li>
+												<li>Отсутствие задержек з\п, простая и конкретная система мотивации: оклад + проценты(от 25 тыс. руб. до 50 тыс. руб.)</li>
+												<li>Быструю, трудную и очень интересную работу</li>
+												<li>Возможность вносить вклад в рост дохода и процветание организации и, как следствие, способствовать своему процветанию и росту</li>
+												<li>Официальное трудоустройство</li>
+												<li>Дружный, молодой коллектив, который всегда поможет и подбодрит</li>
+												<li>Место работы: БЦ "Рябина" в комфортном и красивом офисе</li>
+												<li>График 5\2</li>
+												<li>Участие в корпоративных играх с отличными призами</li>
+											</ol>
+									</div>
+								</div>
+								<div style="text-align: center;">
+									<button data-target="modal_target" class="btn modal-trigger blue">Подать заявку</button>
+								</div>
+								<!-- Modal -->
+								<div id="modal_target" class="modal">
+									<div class="modal-content">
+										<h4>Заполните заявку</h4>
+									 <div class="row">
+									    <form class="col s12" name="target_application" method="post" onsubmit="return checkForm(this)">
+									      <div class="row">
+									        <div class="input-field col s12">
+									          <input placeholder="Как нам вас называть?" id="first_name_target" type="text" class="validate" required>
+									          <label for="first_name_target">Имя</label>
+									        </div>
+									      </div>
+									      <div class="row">
+									        <div class="input-field col s12">
+									          <input placeholder="Как с вами связаться?" id="phone_target" type="tel" class="validate phone" required>
+									          <label for="phone_target">Телефон</label>
+									        </div>
+									      </div>
+									      <div class="row">
+									      	<p>Отправьте нам своё резюме или расскажите про свой опыт работы (обязательно)</p>
+									      	<input type="file" id="CV_target" name="CV_target" accept="/" method="POST" enctype="multipart/form-data">
+									      	<div class="input-field col s12">
+									          <textarea id="exp_target" class="materialize-textarea"></textarea>
+									          <label for="exp_target">Расскажите про опыт работы</label>
+									        </div>
+									      </div>
+									      <p style="color: red" id="nosend"></p>
+									      <input type="submit" class="btn blue send"></input>
+									    </form>
+									  </div>
+									</div>
+								</div>
+								<!-- Modal -->
+							</div>
+							<!-- Target -->
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <footer class="page-footer blue">
+		<div class="container">
+			<div class="row">
+				<div class="col l5 s12">
+					<h5 class="white-text">Govermedia Plus</h5>
+					<p class="grey-text text-lighten-4">Международная бизнес-платформа поддержки малого и среднего бизнеса, таргетирующаяся на Канадской Бирже CSI.</p>
+				</div>
+				<div class="col l4 s12 center">
+					<h5 class="white-text">Социальные сети</h5>
+					<a class="white-text col s4" href="https://vk.com/govermedia"><img src="img/003-vk.png" class="social-media"></a>
+					<a class="white-text col s4" href="https://www.instagram.com/govermedia_plus/"><img src="img/002-instagram.png" class="social-media"></a>
+					<a class="white-text col s4" href="https://www.facebook.com/pg/govmpLtd/posts/?ref=page_internal"><img src="img/001-facebook.png" class="social-media"></a>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Контакты</h5>
+					<ul>
+						<li><a class="white-text">1055 Dunsmuir Street Vancouver, British Columbia, V7X 1L3, Canada </a></li><br>
+						<li><a class="white-text">12, Salikh Saidashev str. Kazan, Republic of Tatarstan, Russian Federation, 420021</a></li><br>
+						<li><a class="white-text" href="tel:+78001008028">+7 (800) 1008-028</a></li><br>
+						<li><a class="white-text" href="mailto:govermediaplus@gmail.com">govermediaplus@gmail.com</a></li><br>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Copyright © 2018
+			</div>
+		</div>
+	</footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
